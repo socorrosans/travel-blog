@@ -1,0 +1,64 @@
+.font-primary {
+  font-family: 'Fenix', serif;
+}
+
+.font-secondary {
+  font-family: 'Explora', cursive;
+}
+
+.title {
+  font-size: 8rem;
+}
+
+.title-s {
+  font-size: 5rem;
+}
+
+.title-m {
+  font-size: 1.5625rem;
+}
+
+.caption {
+  font-size: 5rem;
+}
+
+.description {
+  font-size: 1.25rem;
+}
+
+.intro-bg {
+  background: linear-gradient(to bottom, #ffffff 34%,  #E2EDF2 0%);
+  box-shadow: inset 0 -100px #ffffff;
+}
+
+.choose-bg {
+  background: linear-gradient(to left, #ffffff 18%,  #E2EDF2 0%);
+}
+
+.justify {
+  text-align: justify;
+}
+
+@media(max-width: 1000px) {
+  .title {
+    font-size: 6rem;
+  }
+
+  .title-s {
+    font-size: 4rem;
+  }
+
+  .caption {
+    font-size: 3.5rem;
+  }
+}
+
+@media(max-width: 767px) {
+  .intro-bg {
+    background: linear-gradient(to top, #ffffff 50%,  #E2EDF2 0%);
+  }
+
+  .choose-bg {
+    background: #E2EDF2;
+  }
+}
