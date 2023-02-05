@@ -6,24 +6,24 @@
   font-family: 'Explora', cursive;
 }
 
-.title {
+.size-xl {
   font-size: 8rem;
 }
 
-.title-s {
+.size-lg {
   font-size: 5rem;
 }
 
-.title-m {
+.size-md {
   font-size: 1.5625rem;
+}
+
+.size-sm {
+  font-size: 1.25rem;
 }
 
 .caption {
   font-size: 5rem;
-}
-
-.description {
-  font-size: 1.25rem;
 }
 
 .intro-bg {
@@ -91,11 +91,11 @@
 }
 
 @media(max-width: 1000px) {
-  .title {
+  .size-xl {
     font-size: 6rem;
   }
 
-  .title-s {
+  .size-lg {
     font-size: 4rem;
   }
 
