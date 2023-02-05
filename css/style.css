@@ -32,12 +32,12 @@
 }
 
 .choose-bg {
-  background: linear-gradient(to left, #ffffff 18%,  #E2EDF2 0%);
+  background: linear-gradient(to left, #ffffff 16%,  #E2EDF2 0%);
 }
 
 .experts-bg {
-  margin-top: 200px;
-  background: linear-gradient(to right, #ffffff 16%,  #E2EDF2 0%);
+  margin-block: 200px 100px;
+  background: linear-gradient(to left, #ffffff 16%,  #E2EDF2 0%);
   box-shadow: inset 0px 50px 0px #ffffff;
 }
 
@@ -52,12 +52,18 @@
 .img-bg {
   padding-top: 80px;
   padding-left: 200px;
-  padding-right: 50px;
+  padding-right: 40px;
   margin-bottom: -50px;
 }
 
 .justify {
   text-align: justify;
+}
+
+.benefits-bg {
+  background-image: linear-gradient(to right, #ffffff 38%,  #E2EDF2 0%);
+  background-size: 55%;
+  background-repeat: no-repeat;
 }
 
 @media(max-width: 1400px) {
@@ -103,8 +109,13 @@
     font-size: 3.5rem;
   }
 
-  .description {
+  .size-sm {
     font-size: 1.125rem;
+  }
+
+  .benefits-bg {
+    background-image: linear-gradient(to right, #ffffff 16%,  #E2EDF2 0%);
+    background-size: initial;
   }
 }
 
@@ -113,7 +124,7 @@
     background: linear-gradient(to top, #ffffff 50%,  #E2EDF2 0%);
   }
 
-  .choose-bg, .experts-bg {
+  .choose-bg, .experts-bg, .benefits-bg {
     background: #E2EDF2;
   }
 }
